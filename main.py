@@ -2,6 +2,9 @@
 
 from sys import stdin
 
+def reverse_list(nums=list[int, ...]):
+    return nums[::-1]
+
 def sum_list(nums=list[int, ...]):
     sum = 0
     for x in nums:
