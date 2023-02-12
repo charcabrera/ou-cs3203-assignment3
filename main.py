@@ -14,8 +14,8 @@ def sum_list(nums=list[int, ...]):
 
 
 def product_list(nums=list[int, ...]):
-    product = nums.pop()
-    for x in nums:
+    product = nums[0]
+    for x in nums[1:]:
         product = product * x
 
     return product
