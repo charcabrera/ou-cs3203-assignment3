@@ -23,6 +23,7 @@ def main():
         line = line.rstrip()
         numbers.append(int(line))
 
+    # this is my first time using fstrings 🤨🤨🤨🤨
     print(f"Sum = {sum_list(numbers)}\nProduct = {product_list(numbers)}")
 
 
