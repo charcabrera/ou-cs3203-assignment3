@@ -26,8 +26,8 @@ def main():
         line = line.rstrip()
         numbers.append(int(line))
 
+    # this is my first time using fstrings 🤨🤨🤨🤨
     print(f"Sum: {sum_list(numbers)}\nProduct: {product_list(numbers)}\nReversed: {reverse_list(numbers)}")
-
 
 if __name__ == '__main__':
     main()
